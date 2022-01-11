@@ -8,7 +8,7 @@ function Cartao(props) {
           {props.titulo}
         </div>
         <div className="Conteudo">
-            {props.conteudo}
+            {props.children}
         </div>
     </div>
   );
